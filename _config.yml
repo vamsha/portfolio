@@ -1,0 +1,254 @@
+# Site
+repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Vamshavardhan Reddy Kotha
+title: DATA AI ENGINEER
+email: vamshi.430@gmail.com
+# email_title: Email (Email title override)
+phone: +971-543592653
+# phone_title: Phone (Phone title override)
+# website: Your website (eg. https://google.com)(optional)
+# website_title: Web (Website title override)
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+# twitter_username: jekyllrb
+github_username:  vamsha
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: jekyll
+linkedin_username: vamshavardhan-reddy
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: jekyll
+# orcid_username: 0000-0000-0000-0000
+# googlescholar_username: D847cGsAAAAJ
+
+# Additional icon links
+# additional_links:
+# - title: Blogs
+#   icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: https://vamsha.github.io/words_to_wisdom/
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me (Use this to override about section title)
+about_profile_image: /assets/images/proile.jpeg
+about_content: | # this will include new lines to allow paragraphs
+  Results-driven <mark>Data AI Engineer</mark> with over <mark>13 years of experience</mark> in delivering cutting-edge data solutions.
+  Expertise spans across the <mark>Big Data ecosystem</mark>, where I have been involved in designing and implementing scalable, enterprise-ready data pipelines and building <mark>advanced analytical solutions</mark>.
+  Adept at <mark>data analysis</mark>, I am skilled in extracting valuable insights from complex datasets and transforming them into actionable business intelligence.
+
+content:
+  - title: Core Competencies
+    layout: list
+    content:
+      - layout: left
+        border: weak
+        description: |
+          •	Big Data Ecosystem (Hadoop, Spark, Kafka, Hive, Airflow etc.)
+
+          •	Data Analysis & Data Visualization (Python , Tableau, Power BI , R)
+          
+          •	Data Engineering & ETL Pipeline Design
+          
+          •	Generative AI (Gen AI) & Large Language Models (LLMs)
+          
+          •	Agentic AI Implementation
+          
+          •	MLOps (Docker, Jenkins, CI-CD) & Model Deployment
+          
+          •	Data Warehousing & Cloud Technologies (AWS, Azure)
+          
+          •	Advanced SQL & NoSQL Databases
+          
+          •	Python, Scala, SQL and other programming languages
+
+  - title: Personal Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: AIAgents
+        additional_links:
+          - title: AIAgents Github page for project
+            icon: fab fa-github
+            url: https://github.com/vamsha/AIAgents/tree/main/nlq_to_sql_agent
+        # quote: >
+        #   Building a feature store and advanced analytics models to deliver intelligent, data-driven insights for Enterprise.
+        image: assets/images/frontend.png
+        description: | # this will include new lines to allow paragraphs
+          I'm **exploring/building AI agents** capable of converting natural language queries into SQL statements.
+          This involves leveraging large language models (LLMs) to understand user intent and translate it into accurate database queries.
+          The goal is to make data access more intuitive—enabling even non-technical users to ask complex questions (like “What were the top 5 selling products last month?”)
+          and get results directly from a database, without writing any code.
+          It’s a fascinating space at the intersection of NLP, databases, and real-world usability.
+      
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: Words to Wisdom - NLP and AI Agents
+        additional_links:
+          - title:  Github page for project (eg. sproogen/modern-resume-theme)
+            icon: fab fa-github
+            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        # quote: >
+        #   Building a feature store and advanced analytics models to deliver intelligent, data-driven insights for Enterprise.
+        description: | # this will include new lines to allow paragraphs
+          **Language is no longer just for communication**—it's becoming the interface to intelligent systems. 
+          [**In this blog**](https://vamsha.github.io/words_to_wisdom/), we explore how Natural Language Processing (NLP) and AI agents work together to **bridge the gap between human intent and machine understanding**.
+          From parsing syntax and semantics to building context-aware agents that act on user input, NLP is evolving rapidly.
+          With advancements in transformer models and intent-driven architectures, AI agents are now capable of generating, reasoning, and acting in real time. 
+          Curious how this works under the hood? Read on to uncover the tech that turns words into wisdom.
+      
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: RGen – Natural Language to SQL Engine (2019)
+        # additional_links:
+        #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #     icon: fab fa-github
+        #     url: assets/videos/RGen.mp4
+        # quote: >
+        #   Building a feature store and advanced analytics models to deliver intelligent, data-driven insights for Enterprise.
+        video: assets/videos/RGen.mp4
+        description: | # this will include new lines to allow paragraphs
+          **RGen**, to convert natural language queries into SQL and execute them across multiple databases via custom connectors.
+          **Developed in 2019—well before LLMs and AI agents were mainstream**—RGen used rule-based NLP and intent mapping to enable non-technical users to query data conversationally.
+          Designed for compatibility with MySQL, Oracle, and PostgreSQL, it reduced dependency on technical teams and improved data accessibility.
+          The tool demonstrated early innovation in AI-driven data interaction and laid the groundwork for later conversational analytics efforts.
+
+  - title: Professional Experience
+    layout: list
+    content:
+      - layout: right
+        title: EmirateNBD 
+        sub_title: Manager, Data Engineer.
+        caption: January 2023 - present
+        link: https://www.emiratesnbd.com/en
+        quote: >
+          Currently working in the <mark>AACOE department</mark>, contributing to the creation of <mark>analytical solutions</mark> that empower data-driven decision-making. Experienced in building <mark>Minimum Viable Products (MVPs)</mark> and <mark>Proof of Concepts (POCs)</mark> for <mark>Generative AI (Gen AI), Large Language Models (LLMs), and Agentic AI</mark>. Strong background in <mark>MLOps</mark> integration, with a focus on embedding machine learning operations into production-grade systems for continuous optimization and deployment.
+        description: | # this will include new lines to allow paragraphs
+          •	Led the design and implementation of end-to-end data pipelines that enable seamless data flow from source systems to analytical reports, ensuring high performance, scalability, and reliability.
+          
+          •	Built and deployed analytical solutions within the AACOE department, driving strategic decision-making by delivering high-quality, actionable insights from data.
+          
+          •	Played a pivotal role in integrating MLOps practices into the pipeline, ensuring smooth deployment and continuous monitoring of machine learning models.
+          
+          •	Specialized in advanced data analysis, identifying trends, patterns, and anomalies to provide insights that support business growth and operational efficiency.
+          
+          •	Currently working on buiding MVPs for Generative AI (Gen AI) and Large Language Models (LLMs), focusing on explainability & product search. 
+          
+          •	Actively involved in the implementation of Agentic AI in UAT, developing systems that enable auto explainability & report generation.
+      
+      - layout: right
+        title: DBS 
+        sub_title: Assistant Vice President
+        caption: November 2019 - December 2022.
+        link: https://www.dbs.com.sg/index/default.page
+        quote: >
+          Worked as AVP, majorly responsible for building enterprise platform (ADA).
+        description: | # this will include new lines to allow paragraphs
+          •	Designed and implemented enterprise-ready platform (ADA) using open source technologies, ensuring consistent data flow, quality, and security from source systems to reporting dashboards.
+          
+          •	Applied deep expertise in the Big Data ecosystem to build robust solutions that process large datasets and enable insightful reporting.
+          
+          •	Built In-house ad-on features to Apache Airflow opensource. (Dependency viewer & Batch job runner on Apache airflow).
+          
+          •	Built observability for cluster monitoring and alerts generation using ELK & Grafana.
+          
+          •	Experienced in performance tuning of Spark Applications by analyzing job, data and spark parameter levels.
+      
+      - layout: right
+        table:
+          rows:
+            - ["Jan 2023 – present", "Manager, data Engineering", "EmiratesNBD - Dubai"]
+            - ["Nov 2019 – Dec 2022", "Assistant Vice President", "DBS Bank Ltd. – Singapore"]
+            - ["April 2019 – Oct 2019", "Technical Lead – AI", "Genesys - India"]
+            - ["Mar 2016 – Apr 2019", "Technical Lead – Bigdata", "Kogentix Pvt. Ltd."]
+            - ["Nov 2015 – Feb 2016", "Senior Software Engineer", "Teradata Pvt. Ltd. – India"]
+            - ["April 2012 – Oct 2015", "Senior Software Engineer", "Rockwell Collins Pvt. Ltd. – India"]
+
+  - title: Education
+    layout: list
+    content:
+      - layout: right
+        title: IIIT-Hyderabad
+        sub_title: Certification course in AI & ML
+        caption: 2017-2018
+        quote: >
+          Successfully completed the Advanced Certification in AI & Machine Learning from IIIT Hyderabad, encompassing hands-on labs, mentorship, and industry-led workshops.
+        # description: | # this will include new lines to allow paragraphs
+        #   Description of qualification
+      
+      - layout: right
+        title: CDAC
+        sub_title: PG Diploma in Embedded system design
+        caption: 2011-2012
+        quote: >
+          Completed the Post Graduate Diploma in Embedded Systems and Design (PG-DESD) from C-DAC Bangalore, focusing on embedded C programming, microcontroller interfacing, real-time operating systems, and IoT applications.
+        # description: | # this will include new lines to allow paragraphs
+        #   Description of qualification
+      
+      - layout: right
+        title: JNTU-Hyderabad
+        sub_title:  BE in Electronics and Communications
+        caption: 2007-2011
+        quote: >
+          Earned a Bachelor of Engineering in Electronics and Communication from JNTU Hyderabad.
+        # description: | # this will include new lines to allow paragraphs
+        #   Description of qualification
+      
+  - title: A Little More About Me
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      When I'm not working on tech projects or learning something new, you’ll most likely find me unwinding with a good **movie—popcorn** is a must!
+      I have a **passion for travel** and love exploring new places, cultures, and cuisines.
+      **Quality time with family** is also really important to me, whether it’s playing with the kids, going on weekend outings, or just spending time together at home. 
+      I believe a **well-balanced life fuels creativity** and keeps me energized for the challenges of the tech world.
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
+# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
+
+exclude : [
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/",
+  "lib/",
+  "scripts/",
+  "docker-compose.yml",
+  ]
